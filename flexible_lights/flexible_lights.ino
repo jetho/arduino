@@ -6,7 +6,6 @@
    The potentiometer can be used to control the frequency of the LEDs,
    the pushbutton switches between running and random light modes.
 */
-   
 
 
 #define NELEMS(x)  (sizeof(x) / sizeof(x[0]))
@@ -53,6 +52,4 @@ void loop() {
     currentLed = nextLed();      
   }
 }
-
-
 
